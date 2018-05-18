@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Charting Library</title>
+
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
   <script src="script.js"></script>
 </head>
+
 <body>
   <h1>Using a charting library</h1>
+  <label>What's your favorite color?<input name="color" type="text" id="color"></label>
+  <button onclick="showTimelineChart()">Show Phases of Study</button><br>
 
 
+  <!--Div that will hold the pie chart-->
+  <div id="study-timeline" style="height: 280px;"></div>
+  <div id="study-bar" width='500' height='500'></div>
 
+  <div id="donation-chart" width='500' height='500'></div>
+
+
+  <div id="chart_div1" width='500' height='500'></div>
+  <div id="chart_div2" width='500' height='500'></div>
+
+  <small>TESTING</small>
 </body>
+
 </html>
